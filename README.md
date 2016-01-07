@@ -1,2 +1,3 @@
 # Sunshine
-Basic Wather App
+Basic Weather App
+Delete ForecastFragment.java

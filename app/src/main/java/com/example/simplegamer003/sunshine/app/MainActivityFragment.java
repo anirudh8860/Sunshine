@@ -49,6 +49,8 @@ public class MainActivityFragment extends Fragment {
         int id = item.getItemId();
 
         if (id == R.id.action_refresh) {
+            FetchWeatherTask ftask = new FetchWeatherTask();
+            ftask.execute();
             return true;
         }
 
